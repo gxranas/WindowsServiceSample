@@ -35,7 +35,7 @@ namespace WindowsServiceSample
 
         protected override void OnStart(string[] args)
         {
-            WriteToFile("Service is started at " + DateTime.Now);
+            WriteToFile("Service is 1started at " + DateTime.Now);
         }
 
         protected override void OnStop()
